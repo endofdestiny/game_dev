@@ -1,8 +1,8 @@
 
 
-# xcode metafiles
-*/game_dev/*.plist
-*/game_dev/*xcuserdata*
+# xcode metafile
+*.plist
+*xcuserdata*
 
 
 

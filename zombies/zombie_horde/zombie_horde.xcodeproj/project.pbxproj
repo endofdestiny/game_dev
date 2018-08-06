@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93DEBA182118F62800C31F64 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93DEBA172118F62800C31F64 /* ResourcePath.mm */; };
+		93DEBA1B2118F62800C31F64 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93DEBA1A2118F62800C31F64 /* main.cpp */; };
+		93DEBA2C2118F71000C31F64 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93DEBA2B2118F71000C31F64 /* Player.cpp */; };
+		93DEBAF42118F8A100C31F64 /* ammo_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAD62118F8A100C31F64 /* ammo_icon.png */; };
+		93DEBAF52118F8A100C31F64 /* ammo_pickup.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAD72118F8A100C31F64 /* ammo_pickup.png */; };
+		93DEBAF62118F8A100C31F64 /* background_sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAD82118F8A100C31F64 /* background_sheet.png */; };
+		93DEBAF72118F8A100C31F64 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAD92118F8A100C31F64 /* background.png */; };
+		93DEBAF82118F8A100C31F64 /* bloater.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBADA2118F8A100C31F64 /* bloater.png */; };
+		93DEBAF92118F8A100C31F64 /* blood.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBADB2118F8A100C31F64 /* blood.png */; };
+		93DEBAFA2118F8A100C31F64 /* chaser.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBADC2118F8A100C31F64 /* chaser.png */; };
+		93DEBAFB2118F8A100C31F64 /* crawler.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBADD2118F8A100C31F64 /* crawler.png */; };
+		93DEBAFC2118F8A100C31F64 /* crosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBADE2118F8A100C31F64 /* crosshair.png */; };
+		93DEBAFD2118F8A100C31F64 /* health_pickup.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBADF2118F8A100C31F64 /* health_pickup.png */; };
+		93DEBAFE2118F8A100C31F64 /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAE02118F8A100C31F64 /* hit.wav */; };
+		93DEBAFF2118F8A100C31F64 /* pickup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAE12118F8A100C31F64 /* pickup.wav */; };
+		93DEBB002118F8A100C31F64 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAE22118F8A100C31F64 /* player.png */; };
+		93DEBB012118F8A100C31F64 /* powerup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAE32118F8A100C31F64 /* powerup.wav */; };
+		93DEBB022118F8A100C31F64 /* reload_failed.wav in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAE42118F8A100C31F64 /* reload_failed.wav */; };
+		93DEBB032118F8A100C31F64 /* reload.wav in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAE52118F8A100C31F64 /* reload.wav */; };
+		93DEBB042118F8A100C31F64 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAE62118F8A100C31F64 /* sample.png */; };
+		93DEBB052118F8A100C31F64 /* shoot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAE72118F8A100C31F64 /* shoot.wav */; };
+		93DEBB062118F8A100C31F64 /* splat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAE82118F8A100C31F64 /* splat.wav */; };
+		93DEBB072118F8A100C31F64 /* zombiecontrol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAE92118F8A100C31F64 /* zombiecontrol.ttf */; };
+		93DEBB082118F8A100C31F64 /* zombiecontrol3d.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAEA2118F8A100C31F64 /* zombiecontrol3d.ttf */; };
+		93DEBB092118F8A100C31F64 /* zombiecontrol3dital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAEB2118F8A100C31F64 /* zombiecontrol3dital.ttf */; };
+		93DEBB0A2118F8A100C31F64 /* zombiecontrolcond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAEC2118F8A100C31F64 /* zombiecontrolcond.ttf */; };
+		93DEBB0B2118F8A100C31F64 /* zombiecontrolcondital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAED2118F8A100C31F64 /* zombiecontrolcondital.ttf */; };
+		93DEBB0C2118F8A100C31F64 /* zombiecontrolexpand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAEE2118F8A100C31F64 /* zombiecontrolexpand.ttf */; };
+		93DEBB0D2118F8A100C31F64 /* zombiecontrolexpandital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAEF2118F8A100C31F64 /* zombiecontrolexpandital.ttf */; };
+		93DEBB0E2118F8A100C31F64 /* zombiecontrolital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAF02118F8A100C31F64 /* zombiecontrolital.ttf */; };
+		93DEBB0F2118F8A100C31F64 /* zombiecontrolleft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAF12118F8A100C31F64 /* zombiecontrolleft.ttf */; };
+		93DEBB102118F8A100C31F64 /* zombiecontrolrotal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAF22118F8A100C31F64 /* zombiecontrolrotal.ttf */; };
+		93DEBB112118F8A100C31F64 /* zombiecontrolrotate.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAF32118F8A100C31F64 /* zombiecontrolrotate.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93DEBA122118F62800C31F64 /* zombie_horde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zombie_horde.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DEBA162118F62800C31F64 /* zombie_horde-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zombie_horde-Info.plist"; sourceTree = "<group>"; };
+		93DEBA172118F62800C31F64 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		93DEBA192118F62800C31F64 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		93DEBA1A2118F62800C31F64 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		93DEBA2A2118F67D00C31F64 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		93DEBA2B2118F71000C31F64 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		93DEBAD62118F8A100C31F64 /* ammo_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ammo_icon.png; sourceTree = "<group>"; };
+		93DEBAD72118F8A100C31F64 /* ammo_pickup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ammo_pickup.png; sourceTree = "<group>"; };
+		93DEBAD82118F8A100C31F64 /* background_sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_sheet.png; sourceTree = "<group>"; };
+		93DEBAD92118F8A100C31F64 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		93DEBADA2118F8A100C31F64 /* bloater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bloater.png; sourceTree = "<group>"; };
+		93DEBADB2118F8A100C31F64 /* blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blood.png; sourceTree = "<group>"; };
+		93DEBADC2118F8A100C31F64 /* chaser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chaser.png; sourceTree = "<group>"; };
+		93DEBADD2118F8A100C31F64 /* crawler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crawler.png; sourceTree = "<group>"; };
+		93DEBADE2118F8A100C31F64 /* crosshair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crosshair.png; sourceTree = "<group>"; };
+		93DEBADF2118F8A100C31F64 /* health_pickup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = health_pickup.png; sourceTree = "<group>"; };
+		93DEBAE02118F8A100C31F64 /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit.wav; sourceTree = "<group>"; };
+		93DEBAE12118F8A100C31F64 /* pickup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pickup.wav; sourceTree = "<group>"; };
+		93DEBAE22118F8A100C31F64 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		93DEBAE32118F8A100C31F64 /* powerup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = powerup.wav; sourceTree = "<group>"; };
+		93DEBAE42118F8A100C31F64 /* reload_failed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = reload_failed.wav; sourceTree = "<group>"; };
+		93DEBAE52118F8A100C31F64 /* reload.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = reload.wav; sourceTree = "<group>"; };
+		93DEBAE62118F8A100C31F64 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
+		93DEBAE72118F8A100C31F64 /* shoot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shoot.wav; sourceTree = "<group>"; };
+		93DEBAE82118F8A100C31F64 /* splat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = splat.wav; sourceTree = "<group>"; };
+		93DEBAE92118F8A100C31F64 /* zombiecontrol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zombiecontrol.ttf; sourceTree = "<group>"; };
+		93DEBAEA2118F8A100C31F64 /* zombiecontrol3d.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zombiecontrol3d.ttf; sourceTree = "<group>"; };
+		93DEBAEB2118F8A100C31F64 /* zombiecontrol3dital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zombiecontrol3dital.ttf; sourceTree = "<group>"; };
+		93DEBAEC2118F8A100C31F64 /* zombiecontrolcond.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zombiecontrolcond.ttf; sourceTree = "<group>"; };
+		93DEBAED2118F8A100C31F64 /* zombiecontrolcondital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zombiecontrolcondital.ttf; sourceTree = "<group>"; };
+		93DEBAEE2118F8A100C31F64 /* zombiecontrolexpand.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zombiecontrolexpand.ttf; sourceTree = "<group>"; };
+		93DEBAEF2118F8A100C31F64 /* zombiecontrolexpandital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zombiecontrolexpandital.ttf; sourceTree = "<group>"; };
+		93DEBAF02118F8A100C31F64 /* zombiecontrolital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zombiecontrolital.ttf; sourceTree = "<group>"; };
+		93DEBAF12118F8A100C31F64 /* zombiecontrolleft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zombiecontrolleft.ttf; sourceTree = "<group>"; };
+		93DEBAF22118F8A100C31F64 /* zombiecontrolrotal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zombiecontrolrotal.ttf; sourceTree = "<group>"; };
+		93DEBAF32118F8A100C31F64 /* zombiecontrolrotate.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zombiecontrolrotate.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93DEBA0E2118F62800C31F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93DEBA082118F62800C31F64 = {
+			isa = PBXGroup;
+			children = (
+				93DEBA142118F62800C31F64 /* zombie_horde */,
+				93DEBA132118F62800C31F64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93DEBA132118F62800C31F64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93DEBA122118F62800C31F64 /* zombie_horde.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93DEBA142118F62800C31F64 /* zombie_horde */ = {
+			isa = PBXGroup;
+			children = (
+				93DEBA2A2118F67D00C31F64 /* Player.h */,
+				93DEBA2B2118F71000C31F64 /* Player.cpp */,
+				93DEBA172118F62800C31F64 /* ResourcePath.mm */,
+				93DEBA192118F62800C31F64 /* ResourcePath.hpp */,
+				93DEBA1A2118F62800C31F64 /* main.cpp */,
+				93DEBA1C2118F62800C31F64 /* Resources */,
+				93DEBA152118F62800C31F64 /* Supporting Files */,
+			);
+			path = zombie_horde;
+			sourceTree = "<group>";
+		};
+		93DEBA152118F62800C31F64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93DEBA162118F62800C31F64 /* zombie_horde-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93DEBA1C2118F62800C31F64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93DEBAD62118F8A100C31F64 /* ammo_icon.png */,
+				93DEBAD72118F8A100C31F64 /* ammo_pickup.png */,
+				93DEBAD82118F8A100C31F64 /* background_sheet.png */,
+				93DEBAD92118F8A100C31F64 /* background.png */,
+				93DEBADA2118F8A100C31F64 /* bloater.png */,
+				93DEBADB2118F8A100C31F64 /* blood.png */,
+				93DEBADC2118F8A100C31F64 /* chaser.png */,
+				93DEBADD2118F8A100C31F64 /* crawler.png */,
+				93DEBADE2118F8A100C31F64 /* crosshair.png */,
+				93DEBADF2118F8A100C31F64 /* health_pickup.png */,
+				93DEBAE02118F8A100C31F64 /* hit.wav */,
+				93DEBAE12118F8A100C31F64 /* pickup.wav */,
+				93DEBAE22118F8A100C31F64 /* player.png */,
+				93DEBAE32118F8A100C31F64 /* powerup.wav */,
+				93DEBAE42118F8A100C31F64 /* reload_failed.wav */,
+				93DEBAE52118F8A100C31F64 /* reload.wav */,
+				93DEBAE62118F8A100C31F64 /* sample.png */,
+				93DEBAE72118F8A100C31F64 /* shoot.wav */,
+				93DEBAE82118F8A100C31F64 /* splat.wav */,
+				93DEBAE92118F8A100C31F64 /* zombiecontrol.ttf */,
+				93DEBAEA2118F8A100C31F64 /* zombiecontrol3d.ttf */,
+				93DEBAEB2118F8A100C31F64 /* zombiecontrol3dital.ttf */,
+				93DEBAEC2118F8A100C31F64 /* zombiecontrolcond.ttf */,
+				93DEBAED2118F8A100C31F64 /* zombiecontrolcondital.ttf */,
+				93DEBAEE2118F8A100C31F64 /* zombiecontrolexpand.ttf */,
+				93DEBAEF2118F8A100C31F64 /* zombiecontrolexpandital.ttf */,
+				93DEBAF02118F8A100C31F64 /* zombiecontrolital.ttf */,
+				93DEBAF12118F8A100C31F64 /* zombiecontrolleft.ttf */,
+				93DEBAF22118F8A100C31F64 /* zombiecontrolrotal.ttf */,
+				93DEBAF32118F8A100C31F64 /* zombiecontrolrotate.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93DEBA112118F62800C31F64 /* zombie_horde */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DEBA272118F62800C31F64 /* Build configuration list for PBXNativeTarget "zombie_horde" */;
+			buildPhases = (
+				93DEBA0D2118F62800C31F64 /* Sources */,
+				93DEBA0E2118F62800C31F64 /* Frameworks */,
+				93DEBA0F2118F62800C31F64 /* Resources */,
+				93DEBA102118F62800C31F64 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zombie_horde;
+			productName = zombie_horde;
+			productReference = 93DEBA122118F62800C31F64 /* zombie_horde.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93DEBA092118F62800C31F64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = endofdestiny;
+				TargetAttributes = {
+					93DEBA112118F62800C31F64 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 93DEBA0C2118F62800C31F64 /* Build configuration list for PBXProject "zombie_horde" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93DEBA082118F62800C31F64;
+			productRefGroup = 93DEBA132118F62800C31F64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93DEBA112118F62800C31F64 /* zombie_horde */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93DEBA0F2118F62800C31F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DEBAF72118F8A100C31F64 /* background.png in Resources */,
+				93DEBAFF2118F8A100C31F64 /* pickup.wav in Resources */,
+				93DEBB0F2118F8A100C31F64 /* zombiecontrolleft.ttf in Resources */,
+				93DEBAFA2118F8A100C31F64 /* chaser.png in Resources */,
+				93DEBAF52118F8A100C31F64 /* ammo_pickup.png in Resources */,
+				93DEBB092118F8A100C31F64 /* zombiecontrol3dital.ttf in Resources */,
+				93DEBB042118F8A100C31F64 /* sample.png in Resources */,
+				93DEBAF62118F8A100C31F64 /* background_sheet.png in Resources */,
+				93DEBB102118F8A100C31F64 /* zombiecontrolrotal.ttf in Resources */,
+				93DEBAFD2118F8A100C31F64 /* health_pickup.png in Resources */,
+				93DEBAF42118F8A100C31F64 /* ammo_icon.png in Resources */,
+				93DEBAFC2118F8A100C31F64 /* crosshair.png in Resources */,
+				93DEBB032118F8A100C31F64 /* reload.wav in Resources */,
+				93DEBB082118F8A100C31F64 /* zombiecontrol3d.ttf in Resources */,
+				93DEBB002118F8A100C31F64 /* player.png in Resources */,
+				93DEBB0B2118F8A100C31F64 /* zombiecontrolcondital.ttf in Resources */,
+				93DEBB0E2118F8A100C31F64 /* zombiecontrolital.ttf in Resources */,
+				93DEBB072118F8A100C31F64 /* zombiecontrol.ttf in Resources */,
+				93DEBB0D2118F8A100C31F64 /* zombiecontrolexpandital.ttf in Resources */,
+				93DEBAF82118F8A100C31F64 /* bloater.png in Resources */,
+				93DEBAF92118F8A100C31F64 /* blood.png in Resources */,
+				93DEBAFE2118F8A100C31F64 /* hit.wav in Resources */,
+				93DEBB0A2118F8A100C31F64 /* zombiecontrolcond.ttf in Resources */,
+				93DEBAFB2118F8A100C31F64 /* crawler.png in Resources */,
+				93DEBB112118F8A100C31F64 /* zombiecontrolrotate.ttf in Resources */,
+				93DEBB022118F8A100C31F64 /* reload_failed.wav in Resources */,
+				93DEBB062118F8A100C31F64 /* splat.wav in Resources */,
+				93DEBB052118F8A100C31F64 /* shoot.wav in Resources */,
+				93DEBB0C2118F8A100C31F64 /* zombiecontrolexpand.ttf in Resources */,
+				93DEBB012118F8A100C31F64 /* powerup.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93DEBA102118F62800C31F64 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93DEBA0D2118F62800C31F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DEBA1B2118F62800C31F64 /* main.cpp in Sources */,
+				93DEBA182118F62800C31F64 /* ResourcePath.mm in Sources */,
+				93DEBA2C2118F71000C31F64 /* Player.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		93DEBA252118F62800C31F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		93DEBA262118F62800C31F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		93DEBA282118F62800C31F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "zombie_horde/zombie_horde-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93DEBA292118F62800C31F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "zombie_horde/zombie_horde-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93DEBA0C2118F62800C31F64 /* Build configuration list for PBXProject "zombie_horde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DEBA252118F62800C31F64 /* Debug */,
+				93DEBA262118F62800C31F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DEBA272118F62800C31F64 /* Build configuration list for PBXNativeTarget "zombie_horde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DEBA282118F62800C31F64 /* Debug */,
+				93DEBA292118F62800C31F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93DEBA092118F62800C31F64 /* Project object */;
+}

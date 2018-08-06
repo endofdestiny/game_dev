@@ -1,19 +1,15 @@
-//
-//  main.cpp
-//  zombies
 
-//#include <SFML/Audio.hpp>
+
+//
+
+#include <SFML/Audio.hpp>
 #include <SFML/Graphics.hpp>
+#include "Player.h"
 
 // Here is a small helper for you! Have a look.
 #include "ResourcePath.hpp"
 
-#include <stdio.h>
-#include "Player.h"
-
-using namespace sf;
-
-int main()
+int main(int, char const**)
 {
     
     // The game will always be in one of four states
@@ -29,6 +25,8 @@ int main()
     Vector2f resolution;
     resolution.x = VideoMode::getDesktopMode().width;
     resolution.y = VideoMode::getDesktopMode().height;
+    //resolution.x = 800;
+    //resolution.y = 600;
     
     RenderWindow window(VideoMode(resolution.x, resolution.y),
                         "Zombie Arena", Style::Fullscreen);
@@ -241,6 +239,6 @@ int main()
         window.display();
     } //end game loop
     
-
+    
     return 0;
 }

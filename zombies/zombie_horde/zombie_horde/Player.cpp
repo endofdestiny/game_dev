@@ -1,22 +1,23 @@
 //
 //  Player.cpp
-//  zombies
+//  zombie_horde
 //
 
 //#include "stdafx.h"
 
 #include "Player.h"
 #include <cmath>
+#include "ResourcePath.hpp"
 
 Player::Player()
 {
-
+    
     m_Speed = START_SPEED;
     m_Health = START_HEALTH;
     m_MaxHealth = START_HEALTH;
     
     //Associate a texture with a sprite
-    m_Texture.loadFromFile("graphics/player.png");
+    m_Texture.loadFromFile(resourcePath() + "player.png");
     m_Sprite.setTexture(m_Texture);
     
     //set origin of sprite to centre for smooth rotation
@@ -162,9 +163,9 @@ void Player::update(float elapsedTime, Vector2i mousePosition)
     {
         m_Position.x -= m_Speed * elapsedTime;
     }
-
+    
     m_Sprite.setPosition(m_Position);
-
+    
     // Keep the player in the arena
     if (m_Position.x > m_Arena.width - m_TileSize)
     {
@@ -208,7 +209,7 @@ void Player::increaseHealthLevel(int amount)
     {
         m_Health = m_MaxHealth;
     }
-
+    
 }
 
 

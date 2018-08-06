@@ -1,9 +1,11 @@
 //
 //  Player.h
-//  zombies
+//  zombie_horde
+//
 
 #ifndef Player_h
 #define Player_h
+
 
 #pragma once
 #include <SFML/Graphics.hpp>
@@ -13,11 +15,11 @@ using namespace sf;
 
 class Player
 {
-
+    
 private:
     const float START_SPEED = 200;
     const float START_HEALTH = 100;
-
+    
     //where is the player?
     Vector2f m_Position;
     
@@ -53,7 +55,7 @@ private:
     //Speed in pixels per s
     float m_Speed;
     
-
+    
 public:
     Player();
     
@@ -108,6 +110,7 @@ public:
     //current health status
     int getHealth();
 };
+
 
 
 
