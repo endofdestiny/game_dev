@@ -1,3 +1,11 @@
+
+
+# xcode metafiles
+*/game_dev/*.plist
+*/game_dev/*xcuserdata*
+
+
+
 # Prerequisites
 *.d
 
