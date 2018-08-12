@@ -3,9 +3,6 @@
 //  zombie_horde
 //
 
-#ifndef Player_h
-#define Player_h
-
 
 #pragma once
 #include <SFML/Graphics.hpp>
@@ -114,6 +111,3 @@ public:
 
 
 
-
-
-#endif /* Player_h */

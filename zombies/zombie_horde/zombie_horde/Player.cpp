@@ -8,6 +8,8 @@
 #include "Player.h"
 #include <cmath>
 #include "ResourcePath.hpp"
+#include "TextureHolder.h"
+
 
 Player::Player()
 {
@@ -17,8 +19,9 @@ Player::Player()
     m_MaxHealth = START_HEALTH;
     
     //Associate a texture with a sprite
-    m_Texture.loadFromFile(resourcePath() + "player.png");
-    m_Sprite.setTexture(m_Texture);
+    m_Sprite = Sprite(TextureHolder::GetTexture(resourcePath() + "player.png"));
+    //m_Texture.loadFromFile(resourcePath() + "player.png");
+    //m_Sprite.setTexture(m_Texture);
     
     //set origin of sprite to centre for smooth rotation
     m_Sprite.setOrigin(25,25);
@@ -186,6 +189,7 @@ void Player::update(float elapsedTime, Vector2i mousePosition)
     
     // Calculate the angle the player is facing
     float angle = (atan2(mousePosition.y - m_Resolution.y / 2, mousePosition.x - m_Resolution.x / 2) * 180) / 3.141;
+    m_Sprite.setRotation(angle);
 }
 
 

@@ -40,6 +40,12 @@
 		93DEBB0F2118F8A100C31F64 /* zombiecontrolleft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAF12118F8A100C31F64 /* zombiecontrolleft.ttf */; };
 		93DEBB102118F8A100C31F64 /* zombiecontrolrotal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAF22118F8A100C31F64 /* zombiecontrolrotal.ttf */; };
 		93DEBB112118F8A100C31F64 /* zombiecontrolrotate.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93DEBAF32118F8A100C31F64 /* zombiecontrolrotate.ttf */; };
+		93DEBB36211FD95F00C31F64 /* CreateBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93DEBB35211FD95F00C31F64 /* CreateBackground.cpp */; };
+		93DEBB39211FEFD100C31F64 /* TextureHolder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93DEBB38211FEFD100C31F64 /* TextureHolder.cpp */; };
+		93DEBB3C211FF1F600C31F64 /* Zombie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93DEBB3A211FF1F600C31F64 /* Zombie.cpp */; };
+		93DEBB3E211FF65800C31F64 /* CreateHorde.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93DEBB3D211FF65800C31F64 /* CreateHorde.cpp */; };
+		93DEBB41211FFE7200C31F64 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93DEBB40211FFE7200C31F64 /* Bullet.cpp */; };
+		93DEBB442120644300C31F64 /* Pickup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93DEBB422120644300C31F64 /* Pickup.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +86,17 @@
 		93DEBAF12118F8A100C31F64 /* zombiecontrolleft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zombiecontrolleft.ttf; sourceTree = "<group>"; };
 		93DEBAF22118F8A100C31F64 /* zombiecontrolrotal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zombiecontrolrotal.ttf; sourceTree = "<group>"; };
 		93DEBAF32118F8A100C31F64 /* zombiecontrolrotate.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zombiecontrolrotate.ttf; sourceTree = "<group>"; };
+		93DEBB34211FD5D600C31F64 /* ZombieHorde.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZombieHorde.h; sourceTree = "<group>"; };
+		93DEBB35211FD95F00C31F64 /* CreateBackground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CreateBackground.cpp; sourceTree = "<group>"; };
+		93DEBB37211FECA200C31F64 /* TextureHolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureHolder.h; sourceTree = "<group>"; };
+		93DEBB38211FEFD100C31F64 /* TextureHolder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextureHolder.cpp; sourceTree = "<group>"; };
+		93DEBB3A211FF1F600C31F64 /* Zombie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Zombie.cpp; sourceTree = "<group>"; };
+		93DEBB3B211FF1F600C31F64 /* Zombie.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Zombie.hpp; sourceTree = "<group>"; };
+		93DEBB3D211FF65800C31F64 /* CreateHorde.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CreateHorde.cpp; sourceTree = "<group>"; };
+		93DEBB3F211FFD3B00C31F64 /* Bullet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		93DEBB40211FFE7200C31F64 /* Bullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bullet.cpp; sourceTree = "<group>"; };
+		93DEBB422120644300C31F64 /* Pickup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pickup.cpp; sourceTree = "<group>"; };
+		93DEBB432120644300C31F64 /* Pickup.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Pickup.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +130,21 @@
 			isa = PBXGroup;
 			children = (
 				93DEBA2A2118F67D00C31F64 /* Player.h */,
+				93DEBB3F211FFD3B00C31F64 /* Bullet.h */,
+				93DEBB40211FFE7200C31F64 /* Bullet.cpp */,
 				93DEBA2B2118F71000C31F64 /* Player.cpp */,
+				93DEBB422120644300C31F64 /* Pickup.cpp */,
+				93DEBB432120644300C31F64 /* Pickup.hpp */,
 				93DEBA172118F62800C31F64 /* ResourcePath.mm */,
 				93DEBA192118F62800C31F64 /* ResourcePath.hpp */,
+				93DEBB3D211FF65800C31F64 /* CreateHorde.cpp */,
+				93DEBB34211FD5D600C31F64 /* ZombieHorde.h */,
+				93DEBB35211FD95F00C31F64 /* CreateBackground.cpp */,
+				93DEBB38211FEFD100C31F64 /* TextureHolder.cpp */,
+				93DEBB37211FECA200C31F64 /* TextureHolder.h */,
 				93DEBA1A2118F62800C31F64 /* main.cpp */,
+				93DEBB3A211FF1F600C31F64 /* Zombie.cpp */,
+				93DEBB3B211FF1F600C31F64 /* Zombie.hpp */,
 				93DEBA1C2118F62800C31F64 /* Resources */,
 				93DEBA152118F62800C31F64 /* Supporting Files */,
 			);
@@ -283,8 +311,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				93DEBA1B2118F62800C31F64 /* main.cpp in Sources */,
+				93DEBB3E211FF65800C31F64 /* CreateHorde.cpp in Sources */,
+				93DEBB3C211FF1F600C31F64 /* Zombie.cpp in Sources */,
+				93DEBB41211FFE7200C31F64 /* Bullet.cpp in Sources */,
+				93DEBB36211FD95F00C31F64 /* CreateBackground.cpp in Sources */,
 				93DEBA182118F62800C31F64 /* ResourcePath.mm in Sources */,
+				93DEBB442120644300C31F64 /* Pickup.cpp in Sources */,
 				93DEBA2C2118F71000C31F64 /* Player.cpp in Sources */,
+				93DEBB39211FEFD100C31F64 /* TextureHolder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +450,7 @@
 				93DEBA292118F62800C31F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
