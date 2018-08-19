@@ -660,8 +660,6 @@ int main(int, char const**)
             window.draw(hiScoreText);
         }
         
-        
-        
 
         window.display();
     } //end game loop
