@@ -15,10 +15,10 @@ Zombie* createHorde(int numZombies, IntRect arena)
 
     Zombie* zombies = new Zombie[numZombies];
     
-    int maxY = arena.height - 50;
-    int minY = arena.top + 50;
-    int maxX = arena.width - 50;
-    int minX = arena.left + 50;
+    int maxY = arena.height - 20;
+    int minY = arena.top + 20;
+    int maxX = arena.width - 20;
+    int minX = arena.left + 20;
 
     
     for (int i = 0; i < numZombies; i++)
@@ -58,11 +58,6 @@ Zombie* createHorde(int numZombies, IntRect arena)
         srand((int)time(0) * i * 2);
         int type = (rand() % 3);
         
-         
-        
-        //x = 25;
-        //y = 30;
-        //int type = 1;
         
         // Spawn the new zombie into the array
         zombies[i].spawn(x, y, type, i);
